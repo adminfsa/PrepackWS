@@ -1,0 +1,10 @@
+com\farmacapsulas\prepackws\entities\ResponseDP.class
+com\farmacapsulas\prepackws\service\PropertiesBean.class
+com\farmacapsulas\prepackws\ws\PrepackWebService.class
+com\farmacapsulas\prepackws\entities\Message.class
+com\farmacapsulas\prepackws\service\PrepackService.class
+com\farmacapsulas\prepackws\util\EsquemaAmbiente.class
+com\farmacapsulas\prepackws\util\Conexion.class
+com\farmacapsulas\prepackws\util\UtilPrepack.class
+com\farmacapsulas\prepackws\util\PrepackException.class
+com\farmacapsulas\prepackws\entities\RequestDP.class

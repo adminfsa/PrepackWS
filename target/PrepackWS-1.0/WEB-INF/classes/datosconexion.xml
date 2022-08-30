@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key ="urlConexion">jdbc:as400:172.20.1.41;prompt=false</entry>
+    <entry key ="driver">com.ibm.as400.access.AS400JDBCDriver</entry>
+    <entry key ="usuario">FACELECT</entry>
+    <entry key ="password">FACELECT18</entry>
+    <entry key ="usuarioTest">USRCTN2</entry>
+    <entry key ="passwordTest">USRCTN4</entry>
+</properties>
