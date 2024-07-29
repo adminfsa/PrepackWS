@@ -10,7 +10,8 @@ package com.farmacapsulas.prepackws.util;
  * @author wsalgado
  */
 public enum EsquemaAmbiente {
-    PRUEBAS("FACLX833F", "jdbc:as400:172.20.1.41;prompt=false"), PRODUCCION("ERPLX833F", "jdbc:as400:172.20.1.41;prompt=false"), 
+    PRUEBAS("FACLX833F", "jdbc:as400:172.20.1.41;prompt=false"), PRODUCCION("ERPLX833F", "jdbc:as400:172.20.1.133;prompt=false"), 
+    DESARROLLO("ERPLX833F", "jdbc:as400:172.20.1.132;prompt=false"),
     QA("ERPLX833F", "jdbc:as400:172.20.1.131;prompt=false");
     
     private String esquema;
