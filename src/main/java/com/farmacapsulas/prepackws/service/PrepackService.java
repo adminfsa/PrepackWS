@@ -43,7 +43,7 @@ public class PrepackService {
     public boolean distribuirPrecios(int numeroOrden) throws Exception{
         boolean sw = false;
         if (validarPedidoPrepack(numeroOrden)){
-            String esquema = UtilPrepack.PRODUCTIVE_SERVICE ? EsquemaAmbiente.PRODUCCION.getEsquema() : EsquemaAmbiente.PRUEBAS.getEsquema();
+            String esquema = UtilPrepack.AMBIENTE_PORTAL == EsquemaAmbiente.PRODUCCION ? EsquemaAmbiente.PRODUCCION.getEsquema() : EsquemaAmbiente.PRUEBAS.getEsquema();
             try (final Conexion con = new Conexion()) {
                 con.conectarDB2();
                 propertiesBean = new PropertiesBean();

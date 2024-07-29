@@ -74,10 +74,11 @@ public class Conexion implements AutoCloseable{
     }
     
     public void conectarDB2()throws Exception{
-        String  urlConexion = this.properties.getProperty("urlConexion"); 
+        //String  urlConexion = this.properties.getProperty("urlConexion"); 
+        String  urlConexion = UtilPrepack.AMBIENTE_PORTAL.getUrlConexion(); 
         String driver = this.properties.getProperty("driver"); 
-        String usuario =  UtilPrepack.PRODUCTIVE_SERVICE? this.properties.getProperty("usuario") : this.properties.getProperty("usuarioTest"); 
-        String password = UtilPrepack.PRODUCTIVE_SERVICE? this.properties.getProperty("password") : this.properties.getProperty("passwordTest"); 
+        String usuario =  UtilPrepack.AMBIENTE_PORTAL == EsquemaAmbiente.PRODUCCION? this.properties.getProperty("usuario") : this.properties.getProperty("usuarioTest"); 
+        String password = UtilPrepack.AMBIENTE_PORTAL == EsquemaAmbiente.PRODUCCION? this.properties.getProperty("password") : this.properties.getProperty("passwordTest"); 
         this.conectar(driver, urlConexion, usuario, password);
         //System.out.println("Conexion a DB Realizada");
     }

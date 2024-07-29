@@ -1,10 +1,10 @@
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\Message.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\service\PrepackService.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\ws\PrepackWebService.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\service\PropertiesBean.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\PrepackException.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\ResponseDP.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\UtilPrepack.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\Conexion.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\EsquemaAmbiente.java
-D:\Documentos\Proyectos - Fuentes\ProyectoPedidos\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\RequestDP.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\service\PrepackService.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\service\PropertiesBean.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\EsquemaAmbiente.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\ResponseDP.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\Conexion.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\UtilPrepack.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\Message.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\entities\RequestDP.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\ws\PrepackWebService.java
+C:\Users\wsalgado\Documents\Documentos\GitHub\PrepackWS\src\main\java\com\farmacapsulas\prepackws\util\PrepackException.java

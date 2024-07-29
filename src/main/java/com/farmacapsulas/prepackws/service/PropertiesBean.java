@@ -6,6 +6,7 @@
 package com.farmacapsulas.prepackws.service;
 
 
+import com.farmacapsulas.prepackws.util.EsquemaAmbiente;
 import com.farmacapsulas.prepackws.util.UtilPrepack;
 import java.io.IOException;
 import java.io.InputStream;
@@ -47,7 +48,7 @@ public class PropertiesBean {
    }
     
     public String getProperty(String name) {
-        if (UtilPrepack.PRODUCTIVE_SERVICE){
+        if (UtilPrepack.AMBIENTE_PORTAL != EsquemaAmbiente.PRUEBAS){
             return properties.getProperty(name);
         }else{
             return properties.getProperty(name).replaceAll("ERPLXFU.", "FACLXFU.").replaceAll("ERPLX833F.", "PLOLX833F.").replaceAll("PEDIDO\\.", "PEDIDOTST.");

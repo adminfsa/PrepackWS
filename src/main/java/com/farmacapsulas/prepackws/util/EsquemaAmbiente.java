@@ -10,12 +10,15 @@ package com.farmacapsulas.prepackws.util;
  * @author wsalgado
  */
 public enum EsquemaAmbiente {
-    PRUEBAS("FACLX833F"), PRODUCCION("ERPLX833F");
+    PRUEBAS("FACLX833F", "jdbc:as400:172.20.1.41;prompt=false"), PRODUCCION("ERPLX833F", "jdbc:as400:172.20.1.41;prompt=false"), 
+    QA("ERPLX833F", "jdbc:as400:172.20.1.131;prompt=false");
     
     private String esquema;
-
-    private EsquemaAmbiente(String esquema) {
+    private String urlConexion;
+    
+    private EsquemaAmbiente(String esquema, String urlConexion) {
         this.esquema = esquema;
+        this.urlConexion = urlConexion;
     }
 
     public String getEsquema() {
@@ -25,4 +28,14 @@ public enum EsquemaAmbiente {
     public void setEsquema(String esquema) {
         this.esquema = esquema;
     }
+
+    public String getUrlConexion() {
+        return urlConexion;
+    }
+
+    public void setUrlConexion(String urlConexion) {
+        this.urlConexion = urlConexion;
+    }
+    
+    
 }
