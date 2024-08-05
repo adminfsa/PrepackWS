@@ -11,5 +11,5 @@ package com.farmacapsulas.prepackws.util;
  */
 public class UtilPrepack {
     //public final static boolean PRODUCTIVE_SERVICE = false;
-    public final static EsquemaAmbiente AMBIENTE_PORTAL = EsquemaAmbiente.QA;
+    public final static EsquemaAmbiente AMBIENTE_PORTAL = EsquemaAmbiente.PRODUCCION;
 }
